@@ -1,0 +1,161 @@
+views:
+  - type: table
+    name: All levels
+    filters:
+      and:
+        - Level.containsAny("1", "2", "3", "4", "5", "6", "7", "8", "9", "10")
+        - Domain == "Sage"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Level
+        direction: ASC
+    imageAspectRatio: 0.25
+    cardSize: 190
+    imageFit: ""
+    image: note.Color
+    markers: bullet
+    columnSize:
+      file.name: 213
+  - type: cards
+    name: Level 1
+    filters:
+      and:
+        - Level == "1"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    imageAspectRatio: 0.25
+    cardSize: 190
+    imageFit: ""
+    image: note.Color
+  - type: cards
+    name: Level 2
+    filters:
+      and:
+        - Level == "2"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    image: note.Color
+    imageAspectRatio: 0.25
+    cardSize: 190
+  - type: cards
+    name: Level 3
+    filters:
+      and:
+        - Level == "3"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    image: note.Color
+    imageAspectRatio: 0.25
+    cardSize: 180
+  - type: cards
+    name: Level 4
+    filters:
+      and:
+        - Level == "4"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    image: note.Color
+    imageAspectRatio: 0.25
+    cardSize: 190
+  - type: cards
+    name: Level 5
+    filters:
+      and:
+        - Level == "5"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    image: note.Color
+    imageAspectRatio: 0.25
+    cardSize: 190
+  - type: cards
+    name: Level 6
+    filters:
+      and:
+        - Level == "6"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    imageAspectRatio: 0.25
+    image: note.Color
+    cardSize: 190
+  - type: cards
+    name: Level 7
+    filters:
+      and:
+        - Level == "7"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    imageAspectRatio: 0.25
+    image: note.Color
+    cardSize: 190
+  - type: cards
+    name: Level 8
+    filters:
+      and:
+        - Level == "8"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    image: note.Color
+    imageAspectRatio: 0.25
+    cardSize: 190
+  - type: cards
+    name: Level 9
+    filters:
+      and:
+        - Level == "9"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    image: note.Color
+    imageAspectRatio: 0.25
+    cardSize: 190
+  - type: cards
+    name: Level 10
+    filters:
+      and:
+        - Level == "10"
+    order:
+      - file.name
+      - Domain
+    sort:
+      - property: Domain
+        direction: ASC
+    imageAspectRatio: 0.25
+    image: note.Color
+    cardSize: 190
